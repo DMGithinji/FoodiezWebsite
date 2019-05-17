@@ -223,6 +223,11 @@ html{
 .lunch,.dinner,.drinks{
     display:none;
 }
+.about-us{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 footer{
     background-color:#E0E0E0; 
     display: flex;
