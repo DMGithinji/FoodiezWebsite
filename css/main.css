@@ -274,7 +274,7 @@ h2::after {
     margin: 0 auto;
 }
 /*------Card Section-----*/
-.links{
+.links a{
     text-decoration: none;
 }
 .card {

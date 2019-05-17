@@ -22,12 +22,15 @@ $(document).ready(function() {
             var title = $(".title"+cartItem+"").text();
             var price = $(".price"+cartItem+"").text();
             $("#cart-items").text(cartNumber);
-            $(".cart-full").append("<div class='row' id='item"+cartNumber+"'><div class='col-md-4 cart-display'><h2 class='item-title' id='title"+cartNumber+"'>"+title+"</h2></div><div class='col-md-4 cart-display'><p class='item-price' id='price"+cartNumber+"'>"+price+"</p></div><div class='col-md-4 cart-display'><i class='fa fa-trash' id='del"+cartNumber+"'></i></div></div>")
+            $(".cart-full").append("<div class='row' id='item"+cartNumber+"'><div class='col-md-4 cart-display'><h2 class='item-title' id='title"+cartNumber+"'>"+title+"</h2></div><div class='col-md-4 cart-display'><p class='item-price' id='price"+cartNumber+"'>"+price+"</p></div><div class='col-md-4 cart-display'><i class='fa fa-trash' id='del"+cartNumber+"'></i></div><div class='row'><button type='submit' class='checkout'>Check Out</button></div></div>")
             $("#del"+cartNumber+"").click(function(){
                 $("#item"+cartNumber+"").hide();
                 cartNumber -= 1;
                 $("#cart-items").text(cartNumber);
-            }); 
+            });
+            $(".checkout").click(function(){
+                alert("Thank You For Ordering with us. Your order has been received and we'll collect payment on delivery. ")
+            }) 
         });
     });
     $(".fa-shopping-cart").click(function(){
