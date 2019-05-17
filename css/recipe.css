@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Fredericka+the+Great|Laila|Merienda+One|Sofia');
+.top-img {
+    /* background-image: url(../images/Screenshot\ from\ 2019-05-14\ 15-26-17.png); */
+    width: 110%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -1%;
+
+}
+#kikwetu {
+    color: yellow;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Akronim', cursive;
+
+}
+
+
+body {
+    /* background-image: url(../images/pexels-photo-1435895.jpeg); */
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+.Recipe {
+    font-family: 'Niconne', cursive;
+    font-family: 'Lobster', cursive;
+    display: inline-block;
+}
+
+.Recipe1 {
+    margin-left: 100px;
+    margin-top: 5px;
+    font-family: 'Merienda One', cursive;
+    font-size: 120%;
+
+}
+p {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Niconne', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+.copy {
+    background-color: white;
+}
+#in {
+    font-family: 'Kaushan Script', cursive;
+    color: #1E031F  ;
+    text-align: center;
+    font-size: 125%;
+    background-color: white ;
+}
+#beer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#beer h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 200%;
+}
+
+#copy p {
+    background-color: #DDDFD5;
+}
+.logo {
+    text-align: center;
+    left:50%;
+}
+
+#para  {
+    background-color: white; 
+    font-family: 'Laila', serif;
+    font-size: 120%;
+}
+#pan{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+h4{
+    font-family: 'Sofia', cursive;
+    font-size: 10%; 
+}
+.home_img{
+    background: url("../images/sweets.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    /* width: 100%; */
+    height: 450px;
+}
+.logo{
+    float: left;
+}
+.HnS{
+    float:right;
+    text-align: center;
+}
+.Login_signup{
+    display: inline-flex;
+    margin-top: 5px;
+}
+.login{
+    background-color: #ECCA1A;
+    text-align: center;
+    justify-content: center;
+    width:117px;
+    padding-top: 10px;
+    height:40px;
+    font-size: 14px;
+}
+.signup{
+    background-color: #ECCA1A;
+    text-align: center;
+    justify-content: center;
+    width:117px;
+    height:40px;
+    padding-top: 10px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.home-icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.details{
+    margin-top: 20px;
+    display: flex;
+}
+.location{
+    font-size: 24px;
+    font-weight: bold;
+}
+#header{
+    border: grey solid 1px;
+    overflow: hidden;
+    background-color: #333;
+    width:90%;
+    margin:auto;
+    margin-bottom: 10px;
+}
+.header a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#header .items:hover a{
+    color: #ECCA1A;
+}
+#header .on {
+    background-color: #ECCA1A;
+    color: black;
+}
+#header .on a{
+    color: black;
+}
+.items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+/* .card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} */
+footer{
+    background-color:#E0E0E0; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 5px;
+    margin: auto;
+}
