@@ -30,6 +30,7 @@ $(document).ready(function() {
             });
             $(".checkout").click(function(){
                 alert("Thank You For Ordering with us. Your order has been received and we'll collect payment on delivery. ")
+                $(".cart-full").hide();
             }) 
         });
     });
