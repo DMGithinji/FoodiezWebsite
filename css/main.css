@@ -141,8 +141,8 @@ body {
 /*------Location Search CSS----------*/
 .dropbtn {
     background-color: #ECCA1A;
-    color: #333;
-    padding: 16px;
+    color: #000;
+    padding: 12px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -150,14 +150,14 @@ body {
 }
 .dropbtn:hover {
     background-color: #0a0a0a;
-    color: #ccc;
+    color: #ddd;
     -moz-transition: all 0.6s;
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
 }
 #myInput {
     background-image: url('searchicon.png');
-    background-position: 14px 12px;
+    background-position: 2px 2px;
     background-repeat: no-repeat;
     font-size: 16px;
     padding: 14px 16px 12px 16px;
@@ -194,8 +194,8 @@ body {
 /*------Category Search--------*/
 .dropbtn2 {
     background-color: #ECCA1A;
-    color: #333;
-    padding: 16px;
+    color: #000;
+    padding: 12px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -203,7 +203,7 @@ body {
 }
 .dropbtn2:hover {
     background-color: #0a0a0a;
-    color: #ccc;
+    color: #ddd;
     -moz-transition: all 0.6s;
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
