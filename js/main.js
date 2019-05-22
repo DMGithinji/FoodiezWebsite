@@ -2,6 +2,7 @@
 window.onscroll = function () {
     scrollFunction()
 };
+
 function scrollFunction() {
     if (document.documentElement.scrollTop > 280) {
         document.getElementById("navbar").style.background = "white";
@@ -18,9 +19,11 @@ function scrollFunction() {
 }
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
-function locationSelect() {
+$(".dropdown").hover(function () {
     document.getElementById("myDropdown").classList.toggle("show");
-}
+});
+
+
 function filterFunction() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("myInput");
@@ -38,9 +41,9 @@ function filterFunction() {
 }
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function categorySelect() {
+$(".dropdown2").hover(function () {
     document.getElementById("myDropdown2").classList.toggle("show");
-}
+});
 // Close the dropdown if the user clicks outside of it
 window.onclick = function (event) {
     if (!event.target.matches('.dropbtn2')) {
