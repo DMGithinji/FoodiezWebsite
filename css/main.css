@@ -136,9 +136,9 @@ body {
         float: none;
         color: black;
         text-align: center;
-        padding: 5px;
+        padding: 10px;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 10px;
         background-color: #ECCA1A;
         margin-right: 5px;
@@ -302,7 +302,7 @@ h2::after {
 
 .popular h4 {
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .grid-container {
@@ -364,6 +364,22 @@ a:hover {
 }
 
 @media screen and (max-width: 801px) {
+    h2 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+    .popular h4 {
+        font-size: 15px;
+    }
+
+    .card-meta {
+        font-size: 12px;
+    }
     .dropdown2 {
         float: none;
     }
