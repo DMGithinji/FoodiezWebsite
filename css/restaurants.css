@@ -144,7 +144,7 @@ h5::after {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    grid-gap: 0.8rem;
+    grid-gap: 3.8rem;
     width: 86%;
     margin: 0 auto;
     justify-items: stretch;
@@ -236,7 +236,7 @@ footer {
     .grid-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        grid-gap: 0.8rem;
+        grid-gap: 1.2rem;
         width: 90%;
         justify-items: center;
     }
