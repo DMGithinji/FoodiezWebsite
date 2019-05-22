@@ -144,15 +144,15 @@ h5::after {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    grid-gap: 3.8rem;
+    grid-gap: 0.8rem;
     width: 86%;
     margin: 0 auto;
-    justify-items: center;
+    justify-items: stretch;
 }
 
 /*---Card Styling------*/
 .card {
-    max-width: 250px;
+    max-width: 220px;
     overflow: hidden;
     background-color: #fcfcfc;
 }
@@ -197,24 +197,6 @@ a:hover {
     cursor: pointer;
 }
 
-@media screen and (max-width: 801px) {
-    #more fa {
-        display: none;
-    }
-
-    .dropdown2 {
-        float: none;
-    }
-
-    .dropdown-content a {
-        padding: none;
-    }
-
-    .dropdown-content2 a {
-        padding: none;
-    }
-}
-
 /*--=Footer Styling---*/
 #pre-footer {
     background-color: rgb(236, 236, 236);
@@ -248,4 +230,59 @@ footer {
     color: rgb(231, 231, 231);
     text-align: center;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 801px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: 0.8rem;
+        width: 90%;
+        justify-items: center;
+    }
+    #more fa {
+        display: none;
+    }
+
+    .dropdown2 {
+        float: none;
+    }
+
+    .dropdown-content a {
+        padding: none;
+    }
+
+    .dropdown-content2 a {
+        padding: none;
+    }
+
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .popular h4 {
+        font-size: 11px;
+    }
+
+    .card-meta {
+        font-size: 10px;
+    }
+
+    #pre-footer h6 {
+        font-size: 0.7rem;
+    }
+    
+    /* footer */
+    footer {
+        font-size: 0.7rem;
+    }
+    #pre-footer {
+        font-size: 0.6rem;
+    }
 }
